@@ -1,3 +1,4 @@
+package myArrayList;
 /*
 	Trivial application that displays a string
 */

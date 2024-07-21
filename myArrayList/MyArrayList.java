@@ -1,3 +1,4 @@
+package myArrayList;
 // Simulates ARRAYLIST, have students implement this
 // to better understand how the java api works
 
