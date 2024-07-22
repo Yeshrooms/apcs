@@ -3,7 +3,6 @@ package myArrayList;
 	Trivial application that displays a string
 */
 
-import java.util.*;
 
 public class TestMyArrayList 
 {
