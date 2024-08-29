@@ -26,6 +26,7 @@ public class poe {
             Scanner curScan = new Scanner(cur);
             String word = curScan.next();
             curScan.close();
+            bubbleArrayList.add(word);
 
             if (wordCount.containsKey(word)){
                 wordCount.put(word, wordCount.get(word) + 1);
@@ -37,10 +38,10 @@ public class poe {
             }
             else{
                 wordCount.put(word, 1);
-                bubbleArrayList.add(word);
                 counter++;
             }
         }
+        Object[] bubbleArray = bubbleArrayList.toArray();
 
         try{
             FileWriter poeWriter = new FileWriter("/Users/yeshrooms/Documents/GitHub/apcs/POE/poeWords.txt");
@@ -77,10 +78,32 @@ public class poe {
         System.out.println("======================================================");
         System.out.println("BUBBLE SORT");
 
-        for (int i = 0; i < bubbleArrayList.size(); i++){
-            for (int j = 0; j < bubbleArrayList.size()-i; j++){
+        long bubbleSortStartTime = System.nanoTime();
 
+        for (int i = 0; i < bubbleArrayList.size(); i++){
+            for (int j = 0; j < bubbleArrayList.size()-i-1; j++){
+                if (bubbleArrayList.get(j+1).compareTo(bubbleArrayList.get(j)) < 0){
+                    String temp = bubbleArrayList.get(j+1);
+                    bubbleArrayList.set(j+1, bubbleArrayList.get(j));
+                    bubbleArrayList.set(j, temp);
+                }
             }
         }
+
+        long bubbleSortEndTime = System.nanoTime();
+        System.out.println("Start time for bubble sort is " + bubbleSortStartTime +
+        " nanoseconds and end time is " + bubbleSortEndTime + " nanoseconds");
+        System.out.println("Elasped time for bubble sort is " + (bubbleSortEndTime - bubbleSortStartTime) + " nanoseconds");
+
+        System.out.println("======================================================");
+        System.out.println("ARRAYS.SORT");
+        long arraySortStartTime = System.nanoTime();
+    
+        Arrays.sort(bubbleArray);
+        long arraySortEndTime = System.nanoTime();
+
+        System.out.println("Start time for array sort is " + arraySortStartTime +
+        " nanoseconds and end time is " + arraySortEndTime + " nanoseconds");
+        System.out.println("Elasped time for array sort is " + (arraySortEndTime - arraySortStartTime) + " nanoseconds");
     }
 }
