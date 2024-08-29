@@ -20,7 +20,7 @@ size appears 1 times.
 grope appears 1 times. 
 millionaires appears 1 times. 
 damps appears 1 times. 
-wine appears 4 times. 
+wine appears 3 times. 
 much appears 2 times. 
 gleams appears 1 times. 
 throat appears 1 times. 
@@ -55,6 +55,7 @@ suffered appears 1 times.
 leave appears 1 times. 
 besides appears 1 times. 
 serpent appears 1 times. 
+webwork appears 1 times. 
 laugh appears 2 times. 
 its appears 8 times. 
 pay appears 1 times. 
@@ -78,12 +79,14 @@ lined appears 1 times.
 responsible appears 1 times. 
 end appears 2 times. 
 fails appears 1 times. 
+indeedan appears 1 times. 
 ventured appears 1 times. 
 roof appears 1 times. 
 definitively appears 1 times. 
 rich appears 2 times. 
 endeavoured appears 1 times. 
 jest appears 2 times. 
+palazzothe appears 1 times. 
 with appears 19 times. 
 vintages appears 1 times. 
 there appears 7 times. 
@@ -94,6 +97,7 @@ ejaculated appears 1 times.
 called appears 2 times. 
 told appears 1 times. 
 pile appears 1 times. 
+unneccessarilybut appears 1 times. 
 punish appears 2 times. 
 fierce appears 1 times. 
 flashed appears 1 times. 
@@ -122,7 +126,7 @@ air appears 1 times.
 matter appears 3 times. 
 instant appears 2 times. 
 walls appears 4 times. 
-mason appears 3 times. 
+mason appears 2 times. 
 asked appears 1 times. 
 too appears 2 times. 
 have appears 14 times. 
@@ -130,11 +134,12 @@ noise appears 1 times.
 ere appears 1 times. 
 obstinate appears 1 times. 
 succession appears 1 times. 
+pointthis appears 1 times. 
 laid appears 2 times. 
 bought appears 1 times. 
 spirit appears 1 times. 
+partistriped appears 1 times. 
 satisfaction appears 1 times. 
-movement appears 1 times. 
 thousand appears 1 times. 
 imposed appears 1 times. 
 equally appears 1 times. 
@@ -171,10 +176,12 @@ cause appears 1 times.
 around appears 1 times. 
 tier appears 4 times. 
 and appears 62 times. 
+today appears 1 times. 
 row appears 1 times. 
 render appears 1 times. 
 stepped appears 2 times. 
 looked appears 2 times. 
+truetrue appears 1 times. 
 italian appears 1 times. 
 cry appears 2 times. 
 any appears 1 times. 
@@ -182,6 +189,7 @@ followed appears 2 times.
 labours appears 1 times. 
 ninth appears 1 times. 
 spoken appears 1 times. 
+reerected appears 1 times. 
 until appears 1 times. 
 wall appears 5 times. 
 dull appears 1 times. 
@@ -225,12 +233,12 @@ fitted appears 1 times.
 bowed appears 1 times. 
 such appears 1 times. 
 recovered appears 1 times. 
-fortunato appears 14 times. 
+fortunato appears 13 times. 
 flambeaux appears 3 times. 
 understood appears 1 times. 
 fashion appears 1 times. 
 through appears 4 times. 
-engagement appears 3 times. 
+engagement appears 2 times. 
 strength appears 1 times. 
 dusk appears 1 times. 
 surmounted appears 1 times. 
@@ -294,12 +302,14 @@ fancy appears 1 times.
 skeletons appears 1 times. 
 insufferably appears 1 times. 
 happy appears 1 times. 
+settledbut appears 1 times. 
 when appears 5 times. 
 three appears 2 times. 
 largely appears 1 times. 
 cask appears 1 times. 
 season appears 1 times. 
 redresser appears 1 times. 
+masonwork appears 1 times. 
 admired appears 1 times. 
 threw appears 2 times. 
 italians appears 1 times. 
@@ -319,7 +329,6 @@ portion appears 1 times.
 vowed appears 1 times. 
 labour appears 1 times. 
 aided appears 1 times. 
-web appears 1 times. 
 low appears 3 times. 
 merely appears 2 times. 
 chain appears 2 times. 
@@ -364,7 +373,7 @@ critical appears 1 times.
 part appears 1 times. 
 their appears 4 times. 
 padlock appears 1 times. 
-point appears 3 times. 
+point appears 2 times. 
 sad appears 1 times. 
 rest appears 1 times. 
 revenge appears 1 times. 
@@ -385,7 +394,7 @@ losing appears 1 times.
 jingling appears 1 times. 
 attendants appears 1 times. 
 familiarly appears 1 times. 
-palazzo appears 3 times. 
+palazzo appears 1 times. 
 ugh appears 15 times. 
 trembled appears 1 times. 
 grotesque appears 1 times. 
@@ -414,6 +423,7 @@ see appears 3 times.
 lacessit appears 1 times. 
 search appears 1 times. 
 by appears 7 times. 
+fortunatoalthough appears 1 times. 
 scarcely appears 1 times. 
 dear appears 1 times. 
 foot appears 3 times. 
@@ -436,7 +446,7 @@ do appears 1 times.
 down appears 3 times. 
 gesticulation appears 1 times. 
 leaned appears 1 times. 
-parti appears 1 times. 
+tightfitting appears 1 times. 
 observe appears 1 times. 
 reply appears 2 times. 
 vault appears 1 times. 
@@ -464,6 +474,7 @@ exposed appears 1 times.
 passed appears 4 times. 
 human appears 2 times. 
 trickle appears 1 times. 
+palazzohe appears 1 times. 
 over appears 3 times. 
 midnight appears 1 times. 
 six appears 1 times. 
@@ -552,7 +563,7 @@ sherry appears 2 times.
 forget appears 1 times. 
 recesses appears 1 times. 
 task appears 1 times. 
-true appears 3 times. 
+true appears 2 times. 
 noble appears 1 times. 
 position appears 2 times. 
 rays appears 1 times. 
@@ -581,6 +592,7 @@ earth appears 1 times.
 mere appears 1 times. 
 unsteadily appears 1 times. 
 threat appears 1 times. 
+movementa appears 1 times. 
 breast appears 1 times. 
 mould appears 1 times. 
 elbow appears 1 times. 
@@ -598,7 +610,6 @@ height appears 1 times.
 extremity appears 1 times. 
 closely appears 1 times. 
 distinguish appears 1 times. 
-settled appears 1 times. 
 old appears 2 times. 
 myself appears 2 times. 
 herein appears 1 times. 
@@ -609,7 +620,6 @@ remaining appears 1 times.
 morning appears 1 times. 
 intention appears 1 times. 
 foulness appears 1 times. 
-re appears 1 times. 
 sincere appears 1 times. 
 nevertheless appears 1 times. 
 discovered appears 1 times. 
@@ -638,8 +648,7 @@ extensive appears 1 times.
 cloak appears 1 times. 
 descended appears 1 times. 
 progress appears 1 times. 
-materially appears 1 times. 
-to appears 50 times. 
+to appears 49 times. 
 fourth appears 2 times. 
 respected appears 2 times. 
 partially appears 1 times. 
@@ -671,6 +680,7 @@ clamoured appears 1 times.
 once appears 2 times. 
 know appears 1 times. 
 filmy appears 1 times. 
+materiallyi appears 1 times. 
 yells appears 1 times. 
 clamourer appears 1 times. 
 mortar appears 1 times. 
@@ -682,7 +692,6 @@ hearken appears 1 times.
 damp appears 3 times. 
 we appears 11 times. 
 life appears 1 times. 
-unneccessarily appears 1 times. 
 rampant appears 1 times. 
 mortal appears 1 times. 
 mask appears 1 times. 
@@ -690,7 +699,7 @@ figure appears 1 times.
 answered appears 1 times. 
 madness appears 1 times. 
 again appears 6 times. 
-indeed appears 3 times. 
+indeed appears 2 times. 
 stone appears 3 times. 
 uncovered appears 1 times. 
 backed appears 1 times. 
@@ -753,7 +762,6 @@ injuries appears 1 times.
 own appears 2 times. 
 struggled appears 1 times. 
 strode appears 1 times. 
-tight appears 1 times. 
 descending appears 1 times. 
 amontillado appears 17 times. 
 only appears 2 times. 
@@ -767,10 +775,20 @@ finished appears 2 times.
 towards appears 1 times. 
 regards appears 1 times. 
 disappearance appears 1 times. 
+engagementcome appears 1 times. 
 person appears 1 times. 
 thrust appears 2 times. 
 hearkened appears 1 times. 
 ground appears 1 times. 
 destined appears 1 times. 
 here appears 1 times. 
-insu
+insure appears 1 times. 
+winehe appears 1 times. 
+holding appears 1 times. 
+cap appears 2 times. 
+paris appears 1 times. 
+leer appears 1 times. 
+austrian appears 1 times. 
+feeble appears 2 times. 
+said appears 24 times. 
+re
