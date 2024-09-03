@@ -5,6 +5,7 @@ public class listOfNumbers
 	public static void main(String args[]) 
 	{
 	    Scanner numberOfNumbers = new Scanner(System.in);
+
         System.out.println("How many numbers would you like to generate? ");
         String numberString = numberOfNumbers.nextLine();
         numberOfNumbers.close();
