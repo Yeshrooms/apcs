@@ -14,6 +14,7 @@ public class poe {
         }
         return -1;
     }
+
     //method for binary search
     public static int binarySearch(String word, wordOccurences[] wordList, int start, int end) {
         if (start > end){ //base case to see if word isn't there
@@ -32,6 +33,7 @@ public class poe {
             return binarySearch(word, wordList, mid + 1, end);
         }
     }
+
 
     //main 
     public static void main(String[] args) throws FileNotFoundException {   
@@ -83,7 +85,6 @@ public class poe {
         //so I didn't know how many words there would be
         Object[] bubbleArray = bubbleArrayList.toArray();
 
-
         //making the array of words that I'll binary sort 
         //array is of object wordOccurences (stores word and occurence associated)
         wordOccurences[] searchedList = new wordOccurences[unique];
@@ -122,8 +123,7 @@ public class poe {
                     searchedList[j].setOccurences(occurencesTemp);
                 }
             }
-        }
-        
+        }      
 
         System.out.println("Number of unique words: " + wordCount.size());
         System.out.println("Number of words: " + counter);
@@ -145,11 +145,7 @@ public class poe {
         System.out.println("Start time is " + startTime + " nanoseconds and end time is " + endTime + " nanoseconds");
         System.out.println("Elasped time is " + (endTime - startTime) + " nanoseconds");
 
-
-
         //Starting part 2 
-
-        
 
         System.out.println("======================================================");
         System.out.println("BUBBLE SORT");
@@ -187,14 +183,12 @@ public class poe {
         if (bubbleTotal > arrayTotal){
             System.out.println("When sorting, bubble sorting was faster.");
         }
-        if (arrayTotal < bubbleTotal){
+        if (bubbleTotal < arrayTotal){
             System.out.println("When sorting, arrays.sort() was faster.");
         }
-        else{
+        if (bubbleTotal == arrayTotal){
             System.out.println("When sorting, the methods tied.");
         }
-
-
 
         System.out.println("======================================================");
         System.out.println("BINARY SEARCH");
@@ -238,10 +232,8 @@ public class poe {
         if (sequentialTotal < binaryTotal){
             System.out.println("When searching the word " + binarySearchWord + ", binary search was more efficent.");
         }
-        else{
+        if(sequentialTotal == binaryTotal){
             System.out.println("When searching the word " + binarySearchWord + ", both searches tied.");
         }
-
-
     }
 }
