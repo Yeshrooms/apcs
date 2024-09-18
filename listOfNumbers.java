@@ -8,6 +8,7 @@ public class listOfNumbers
 <<<<<<< HEAD
 
 =======
+>>>>>>> 348b5327e632ac66e26ed4c1538be5bb5fc9e2a0
         System.out.println("How many numbers would you like to generate? ");
         String numberString = numberOfNumbers.nextLine();
         numberOfNumbers.close();
