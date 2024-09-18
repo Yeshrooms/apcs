@@ -5,8 +5,8 @@ package myArrayList;
 public class MyArrayList
 {
     private Object [] list;
-    private int numElements;       // number of students currently in the
-									// list
+    private int numElements;       
+
 
     // Constructs the list, initially empty,
     // but can hold up to 100
@@ -20,6 +20,13 @@ public class MyArrayList
     // Adds t to the end of the list
     public void add (Object t)
     {
+        if (list[list.length-1] != null){
+            Object[] tempList = new Object[list.length*2];
+            for (int i = 0; i < list.length; i++){
+                tempList[i] = list[i];
+            }
+            list = tempList;
+        }
         list[numElements] = t;
         numElements++;
     }
