@@ -5,7 +5,9 @@ public class listOfNumbers
 	public static void main(String args[]) 
 	{
 	    Scanner numberOfNumbers = new Scanner(System.in);
+<<<<<<< HEAD
 
+=======
         System.out.println("How many numbers would you like to generate? ");
         String numberString = numberOfNumbers.nextLine();
         numberOfNumbers.close();
@@ -55,4 +57,8 @@ public class listOfNumbers
         System.out.println("with a frequency/frequencies of " + numberFrequency.get(frequent) + ".");
             
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 348b5327e632ac66e26ed4c1538be5bb5fc9e2a0
