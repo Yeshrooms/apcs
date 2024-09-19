@@ -2,14 +2,17 @@ package myArrayList;
 // Simulates ARRAYLIST, have students implement this
 // to better understand how the java api works
 
+
 public class MyArrayList
 {
-    private Object [] list;
-    private int numElements;       
+    private static Object [] list;
+    private static int numElements;
+    
+    public MyArrayList (){
+        list = new Object[100];
+        numElements = 0;
+    }
 
-
-    // Constructs the list, initially empty,
-    // but can hold up to 100
     public MyArrayList (int size)
     {
     	list = new Object[size];
@@ -18,9 +21,9 @@ public class MyArrayList
 
 
     // Adds t to the end of the list
-    public void add (Object t)
+    public void addToEnd (Object t)
     {
-        if (list[list.length-1] != null){
+        if (numElements == list.length){
             Object[] tempList = new Object[list.length*2];
             for (int i = 0; i < list.length; i++){
                 tempList[i] = list[i];
@@ -28,6 +31,23 @@ public class MyArrayList
             list = tempList;
         }
         list[numElements] = t;
+        numElements++;
+    }
+
+    // Adds t to the end of the list
+    public void addToStart (Object t)
+    {
+        if (numElements == list.length) {
+            Object[] tempList = new Object[list.length*2];
+            for (int i = 0; i < list.length; i++){
+                tempList[i] = list[i];
+            }
+            list = tempList;
+        }
+        for (int i = numElements; i > 0; i--){
+            list[i] = list[i-1];
+        }
+        list[0] = t;
         numElements++;
     }
 
@@ -57,16 +77,44 @@ public class MyArrayList
     }
 
 
-    // Removes the i'th element, sliding all items beyond i up by one spot.
+    public int getSize(){
+        return list.length;
+    }
+
+    public int getNumElements(){
+        return numElements;
+    }
+
+    public int getIndexOf(Object numToFind){
+        for (int i = 0; i < numElements; i++){
+            if (list[i].equals(numToFind)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    // Removes the element at i, sliding all items beyond i up by one spot.
     // Returns the element removed
-    public Object remove (int i)
+    public Object remove (Object remove)
     {
-        Object x = list[i];
+        int i = getIndexOf(remove);
+        if (i == -1){
+            return -1;
+        }
         for (int j = i; j < numElements - 1; j++){
             list[j] = list[j+1];
         }
         list[numElements - 1] = null;
         numElements--;
-        return x;
+        return 1;
+    }
+
+    public void printAll(){
+        System.out.print(list[0]);
+        for (int i = 1; i < numElements; i++){
+            System.out.print(", " + list[i]);
+        }
+        System.out.println("");
     }
 }
