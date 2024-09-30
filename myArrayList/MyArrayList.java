@@ -1,6 +1,4 @@
 package myArrayList;
-// Simulates ARRAYLIST, have students implement this
-// to better understand how the java api works
 
 
 public class MyArrayList
@@ -94,12 +92,11 @@ public class MyArrayList
         return -1;
     }
 
-    // Removes the element at i, sliding all items beyond i up by one spot.
-    // Returns the element removed
     public Object remove (Object remove)
     {
         int i = getIndexOf(remove);
         if (i == -1){
+            System.out.println("Element not found.");
             return -1;
         }
         for (int j = i; j < numElements - 1; j++){
@@ -107,6 +104,7 @@ public class MyArrayList
         }
         list[numElements - 1] = null;
         numElements--;
+        System.out.println("Removed Successfully.");
         return 1;
     }
 
