@@ -5,7 +5,6 @@ public abstract class Building implements Comparable<Building>
     private double locationValue, sqft;
     private String address;
     private int numOfFloors = 5; 
-    private double marketValue;
     private double totalCost;
 
     public Building(String a, int n, double lv, double sq)
@@ -54,5 +53,3 @@ public abstract class Building implements Comparable<Building>
     }
 
 }
-
-
